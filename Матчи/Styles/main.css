@@ -1,0 +1,104 @@
+::-webkit-scrollbar {
+	width: 6px;
+	height: 0;
+  }
+  ::-webkit-scrollbar-track {
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.15);
+  }
+  ::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.3);
+  }
+
+Body{
+background-color: aliceblue;
+width: 95%;
+height: 100%;
+display: block;
+margin: 0;
+padding: 0;
+position: absolute;
+font-family: sans-serif;
+}
+.roundblock {
+    position: absolute;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    width: 1000px;
+    border-radius: 2%;
+    background-color: black;
+    color: aliceblue;
+    height: 680px;
+    /* padding-top: 30px; */
+    top: 181px;
+    left: 200px;
+}
+.menu{
+position: absolute;
+width: 110%;
+height: 100px;
+background-color:rgb(255, 255, 255) ;
+}
+.license{
+position: absolute;
+background-color:rgb(255, 255, 255) ;
+width: 110%;
+height: 300px;
+top: 1111px;
+}
+.menutext{
+    color: rgb(83, 83, 83);
+    font-size: 30px;
+    position: absolute;
+    cursor: pointer;
+    background-clip:text;
+    -webkit-background-clip:text;
+    top: 30px;
+    transition: 0.1s;
+    left: 230px;
+}
+.menutext:hover{
+    color: rgb(83, 83, 83);
+    font-size: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 26px;
+    background-clip:text;
+    -webkit-background-clip:text;
+    transition: 0.1s;
+    left: 230px;
+}
+
+.animline{
+background-color: red;
+height: 3px;
+width: 100px;
+box-shadow: 7px -1px 6px 6px red;
+top: 100px;
+position: absolute;
+left: 0px;
+animation: animline 2.3s ease-in infinite;
+}
+@keyframes animline{
+from{
+left: -200px;
+}
+to{
+left: 120%
+}
+}
+.licicon {
+  width: 300px;
+  height: 153px;
+  position: absolute;
+  left: -60px;
+}
+
+.selblock {
+  position: absolute;
+  width: 300px;
+  top: 0px;
+  left: 0px;
+  border: 1px white solid;
+  height: 680px;
+}
